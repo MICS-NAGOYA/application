@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   }
   root 'static_pages#home'
   get  '/message', to: 'static_pages#message'
-  get  '/interview', to: 'static_pages#interview'
+  get  '/news', to: 'static_pages#news'
   get  '/photo', to: 'static_pages#photo'
   get  '/join', to: 'static_pages#join'
   get  '/event_manage', to: 'static_pages#event_manage'

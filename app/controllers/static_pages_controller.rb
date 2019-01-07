@@ -6,7 +6,7 @@ class StaticPagesController < ApplicationController
   def message
   end
 
-  def interview
+  def news_path
   end
 
   def photo

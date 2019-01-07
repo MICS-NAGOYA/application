@@ -11,8 +11,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get interview" do
-    get interview_path
+  test "should get news" do
+    get news_path
     assert_response :success
   end
 
