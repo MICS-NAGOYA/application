@@ -317,6 +317,18 @@ body {
     opacity: 1;
   }
 
+  /* --- navigation barを横並び --- */
+  .nav>li {
+      display: inline-block;
+  }
+  .navbar-nav {
+      margin: 0;
+  }
+  .navbar-nav>li>a {
+      padding-top: 14.5px;
+      padding-bottom: 14.5px;
+  }
+
   /* --- header --- */
   .header {
     padding-top: 60px;
