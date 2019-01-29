@@ -446,7 +446,7 @@ DEPENDENCIES
   pry-doc
   pry-rails
   pry-stack_explorer
-  puma (= 3.4.0)
+  puma
   rails (= 5.0.3)
   rails-controller-testing (= 0.1.1)
   sass-rails (= 5.0.6)
